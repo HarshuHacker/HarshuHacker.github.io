@@ -12,7 +12,7 @@ body
 {
 	position: fixed;
 	width: 100vw;
-	height: 7vw;
+	height: 6vw;
 	top: 0;
 	background: linear-gradient(to right,#2857a4,#403066 70%);
 	/*border-bottom: white dotted 1px;*/
@@ -199,7 +199,7 @@ main
 {
 	height: auto;
 	text-align: center;
-	margin-top: 7.5vw;
+	margin-top: 6.5vw;
 	position: relative;
 	margin-bottom: 5vw;
 }
@@ -687,10 +687,10 @@ aside
 {
 	position: fixed;
 	display: inline-block;
-	top:6vw;
+	top:7vw;
 	right: 5vw;
 	width: 25vw;
-	height: 76vh;
+	height: 74vh;
 	border-radius: 2vw;
 	background: rgba(20, 25, 58, 1.0);
 	overflow: hidden;
@@ -1189,6 +1189,12 @@ aside
 
 @media screen and (max-width: 1000px)
 {
+
+	#top-row
+	{
+		height: 7vw;
+	}
+
 	#website-logo-image
 	{
 		top: 1vw;
@@ -1218,7 +1224,7 @@ aside
 	{
 		height: auto;
 		text-align: center;
-		margin-top: 5.5vw;
+		margin-top: 6vw;
 		position: relative;
 		margin-bottom: 11vw;
 	}
@@ -1230,7 +1236,6 @@ aside
 		margin-right: 5vw;
 		height: auto;
 		width: 90vw;
-		/*border: 1px dotted white;*/
 	}
 
 	#highlight-section
@@ -1874,7 +1879,6 @@ aside
 	{
 		height: auto;
 		text-align: center;
-		margin-top: 6vw;
 		position: relative;
 		margin-bottom: 15vw;
 		margin-top: 9vw;
@@ -1892,7 +1896,7 @@ aside
 	#highlight-section
 	{
 		height: 32vw;
-		margin-top: 4vw;
+		margin-top: 2vw;
 	}
 
 	.highlight-content
