@@ -1,0 +1,84 @@
+body
+{
+    background: linear-gradient(to right,#BBD2C5,#536976,#292E49);
+    margin: 0px;
+}
+
+#main-heading
+{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    font-size: 5vw;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#main-contents
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+}
+
+.main-div-contents
+{
+    position: relative;
+    height: 35vw;
+    width: 35vw;
+    min-width: 38vh;
+    min-height: 38vh;
+    overflow: hidden;
+    transition: all 0.5s;
+    margin: 1.5vh;
+    border-radius: 5vw;
+}
+
+.main-div-contents img
+{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.img-contents
+{
+    transition: 0.5s all;
+}
+
+.main-div-contents:hover .img-contents
+{
+    transform: scale(1.25);
+}
+
+.main-contents-text
+{
+    display: flex;
+    font-size: 0vh;
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all;
+}
+
+.main-div-contents:hover .img-contents
+{
+    opacity: 0.3;
+}
+
+.main-div-contents:hover .main-contents-text
+{
+    color: white;
+    font-size: 5vw;
+}
+.main-div-contents:hover
+{
+    box-shadow: 0 0 40px #74ADC8;
+}
