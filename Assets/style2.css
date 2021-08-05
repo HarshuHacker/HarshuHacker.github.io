@@ -201,7 +201,7 @@ main
 	text-align: center;
 	margin-top: 6vw;
 	position: relative;
-	margin-bottom: 5vw;
+	margin-bottom: 5.5vw;
 }
 
 
@@ -328,7 +328,7 @@ content
 
 #queue-section
 {
-	margin-top: 2vw;
+	margin-top: 1vw;
 	width: 100%;
 	height: auto;
 	/*border: 1px dotted white;*/
@@ -1017,6 +1017,12 @@ aside
 
 @media screen and (max-width: 1000px)
 {
+
+	#top-row
+	{
+		height: 7vw;
+	}
+
 	#website-logo-image
 	{
 		top: 1vw;
@@ -1044,8 +1050,8 @@ aside
 
 	main
 	{
-		margin-top: 9vw;
-		margin-bottom: 9vw;
+		margin-top: 7vw;
+		margin-bottom: 7vw;
 	}
 
 	content
@@ -1116,7 +1122,7 @@ aside
 	}
 	#queue-section
 	{
-		margin-top: 3vw;
+		margin-top: 1vw;
 	}
 
 	.queue-box
@@ -1704,7 +1710,7 @@ aside
 	main
 	{
 		margin-top: 9vw;
-		margin-bottom: 11vw;
+		margin-bottom: 9vw;
 	}
 
 	#playlist-name
@@ -1753,7 +1759,7 @@ aside
 	}
 	#queue-section
 	{
-		margin-top: 5vw;
+		margin-top: 1vw;
 	}
 
 	.queue-box
