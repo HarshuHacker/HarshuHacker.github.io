@@ -1242,6 +1242,7 @@ aside
 	{
 		height: 27vw;
 		margin-top: 4vw;
+		margin-bottom: 3vw;
 	}
 
 	.highlight-content
@@ -1896,7 +1897,8 @@ aside
 	#highlight-section
 	{
 		height: 32vw;
-		margin-top: 2vw;
+		margin-top: 4vw;
+		margin-bottom: 4vw;
 	}
 
 	.highlight-content
