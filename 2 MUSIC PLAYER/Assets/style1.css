@@ -1,3 +1,4 @@
+/* Main Body */
 body
 {
 	height: auto;
@@ -7,6 +8,7 @@ body
 	margin: 0;
 	text-transform: uppercase;
 }
+
 /*Top Row*/
 #top-row
 {
@@ -15,15 +17,16 @@ body
 	height: 6vw;
 	top: 0;
 	background: linear-gradient(to right,#2857a4,#403066 70%);
-	/*border-bottom: white dotted 1px;*/
 	z-index: 5;
 }
 
+/* Inline Class */
 .inline-elements
 {
 	display: inline-block;
 }
 
+/* Website Logo */
 #website-logo
 {
 	margin-left: 2vw;
@@ -78,9 +81,7 @@ body
 	font-weight: 700;
 }
 
-
-
-
+/* Favourites */
 #favourites
 {
 	position: absolute;
@@ -94,7 +95,6 @@ body
 	font-size: 1.5vw;
 }
 
-
 #favourites-replace
 {
 	display: none;
@@ -104,6 +104,7 @@ body
 	font-size: 3vw;
 }
 
+/* Search Box */
 #search-box
 {
 	position: absolute;
@@ -115,7 +116,6 @@ body
 	height: 3vw;
 	background-color: rgba(20, 25, 58, 0.7);
 }
-
 
 #search-icon
 {
@@ -152,9 +152,7 @@ body
 	font-size: 1.5vw;
 }
 
-
-
-
+/* Notification */
 #notification-logo
 {
 	position: absolute;
@@ -179,8 +177,7 @@ body
 	top: 0.2vw;
 }
 
-
-
+/* Account Picture */
 #Account-Picture
 {
 	position: absolute;
@@ -195,6 +192,7 @@ body
 	border-radius: 50px;
 }
 
+/* Main Content */
 main
 {
 	height: auto;
@@ -204,17 +202,15 @@ main
 	margin-bottom: 5vw;
 }
 
-
 content
 {
 	display: inline-block;
 	margin-left: -26vw;
 	height: auto;
 	width: 64vw;
-	/*border: 1px dotted white;*/
 }
 
-
+/* Highlight Section */
 #highlight-section
 {
 	background-color: transparent;
@@ -263,15 +259,11 @@ content
 	box-shadow: 0px 0px 10px 4px white;
 }
 
-
-
-
-
+/* Latest Release */
 #latest-release-section
 {
 	width: 100%;
 	height: 22vw;
-	/*border: 1px dotted white;*/
 	margin-bottom: 2vw;
 	position: relative;
 }
@@ -318,7 +310,6 @@ content
 	width: 30%;
 	top: 10%;
 	border-radius: 1vw;
-	/* border: 1px dotted white; */
 	background-color: rgba(20, 25, 58, 0.4);
 }
 
@@ -426,11 +417,11 @@ content
 	font-size: 1vw;
 }
 
+/* Popular Artist Section */
 #popular-artist-section
 {
 	width: 100%;
 	height: 20vw;
-	/*border: 1px dotted white;*/
 	margin-bottom: 1vw;
 }
 
@@ -471,13 +462,13 @@ content
 	font-size: 1vw;
 }
 
+/* Station Section */
 #station-section
 {
 	position: relative;
 	width: 97%;
 	height: 8vw;
 	padding: 1vw 1vw;
-	/*border: 0.1px dotted transparent;*/
 	background-color: rgba(20, 25, 58, 0.4);
 	margin-bottom: 3vw;
 	border-radius: 2vw;
@@ -567,12 +558,11 @@ content
 	position: absolute;
 }
 
-
+/* Mood Section */
 #mood-section
 {
 	height: 10vw;
 	width: 100%;
-	/*border: 1px dotted white;*/
 	margin-bottom: 5vw;
 	display: flex;
 	flex-wrap: wrap;
@@ -628,14 +618,11 @@ content
 	font-size: 2vw;
 }
 
-
-
-
+/* Latest English And Hindi Release */
 #latest-english-hindi
 {
 	width: 100%;
 	height: 20vw;
-	/*border: 1px dotted white;*/
 	margin-top: 3vw;
 }
 
@@ -683,6 +670,7 @@ content
 	border-radius: 2vw;
 }
 
+/* Aside Section */
 aside
 {
 	position: fixed;
@@ -700,7 +688,6 @@ aside
 {
 	height: 5vw;
 	width: 25%;
-	/*border: 1px dotted white;*/
 	position: fixed;
 	background: rgba(20, 25, 58, 1.0);
 	z-index: 2;
@@ -816,7 +803,6 @@ aside
 
 .song-box
 {
-	/*border: 1px dotted blue;*/
 	height: 4vw;
 	position: relative;
 	margin-bottom: 0.4vw;
@@ -888,14 +874,11 @@ aside
 	color: white;
 }
 
-
-
-
+/* Bottom Player Section */
 #player-box
 {
 	width: 100%;
 	height: 5vw;
-	/*border: 1px dotted white;*/
 	position: fixed;
 	bottom: 0px;
 	background-color: rgba(20, 25, 58, 0.98);
@@ -1064,36 +1047,15 @@ aside
 	top: 3.3vw;
 }
 
-#player-first-strap
+#player-time-strap input
 {
 	position: absolute;
+	top: 3.5vw;
 	left: 32vw;
-	font-size: 1vw;
-	top: 3.9vw;
-	border: 1px solid gray;
-	width: 35.7%;
+	width: 35.5vw;
+	height: 0.5vw;
 }
 
-#player-first-strap-covered
-{
-	position: absolute;
-	left: 32vw;
-	font-size: 1vw;
-	top: 3.9vw;
-	border: 1px solid green;
-	width: 9.5%;
-}
-
-#player-first-strap-cursor
-{
-	position: absolute;
-	left: 41.5vw;
-	font-size: 1vw;
-	top: 3.6vw;
-	border: 5px solid white;
-	border-radius: 50%;
-	
-}
 #right-duration
 {
 	position: absolute;
@@ -1106,7 +1068,7 @@ aside
 #player-playlist-bars
 {
 	position: absolute;
-	right: 11vw;
+	right: 20vw;
 	font-size: 1.5vw;
 	top: 1.6vw;
 }
@@ -1114,7 +1076,7 @@ aside
 #player-playlist-play
 {
 	position: absolute;
-	right: 11.7vw;
+	right: 20.7vw;
 	font-size: 0.6vw;
 	top: 1.4vw;
 	border: 1px dotted transparent;
@@ -1124,7 +1086,7 @@ aside
 #airplay
 {
 	position: absolute;
-	right: 8vw;
+	right: 16vw;
 	font-size: 1.5vw;
 	top: 1.6vw;
 }
@@ -1133,52 +1095,26 @@ aside
 #volume-logo
 {
 	position: absolute;
-	right: 5vw;
+	right: 12vw;
 	font-size: 1.5vw;
 	top: 1.6vw;
 }
 
-#volume-strap
-{
-	display: none;
-	position: absolute;
-	right: 4.6vw;
-	font-size: 1vw;
-	bottom: 3.5vw;
-	background-color: white;
-	border: 2px solid orange;
-	border-radius: 5px;
-	height: 13vw;
-	width: 2vw;
-}
-
-#volume:hover #volume-strap
-{
-	display: block;
-}
-
-#player-second-strap-covered
+#volume-strap input
 {
 	position: absolute;
-	font-size: 1vw;
-	bottom: 0;
-	height: 10vw;
-	background-color: green;
-	width: inherit;
-	border-bottom-left-radius: 3px;
-	border-bottom-right-radius: 3px;
+	right: 5vw;
+	width: 6vw;
+	top: 1.8vw;
+	height: 0.5vw;
 }
 
-#volume-logo:hover+#volume-strap
-{
-	display: block;
-}
 #zoom-player
 {
 	position: absolute;
 	right: 3vw;
 	font-size: 1.7vw;
-	top: 1.6vw;
+	top: 1.3vw;
 }
 
 #zoom-player i
@@ -1187,9 +1123,15 @@ aside
 }
 
 
+::-webkit-scrollbar {
+	width: 0px;
+	background: transparent;
+}
+
+/* For Screen Size Less Than 1000px Below Properties Will Apply */
 @media screen and (max-width: 1000px)
 {
-
+	/* Top Row */
 	#top-row
 	{
 		height: 7vw;
@@ -1220,24 +1162,21 @@ aside
 		font-size: 2vw;
 	}
 
+	/* Main Content */
 	main
 	{
-		height: auto;
-		text-align: center;
 		margin-top: 6vw;
-		position: relative;
 		margin-bottom: 11vw;
 	}
 
 	content
 	{
-		display: inline-block;
 		margin-left: 5vw;
 		margin-right: 5vw;
-		height: auto;
 		width: 90vw;
 	}
 
+	/* HighLight Section */
 	#highlight-section
 	{
 		height: 27vw;
@@ -1250,13 +1189,11 @@ aside
 		height: 25vw;
 	}
 
+	/* Latest Release */
 	#latest-release-section
 	{
-		width: 100%;
 		height: 22vw;
-		/*border: 1px dotted white;*/
 		margin-bottom: 2vw;
-		position: relative;
 	}
 
 	#latest-right-arrow
@@ -1273,7 +1210,6 @@ aside
 	.latest-release-content-img
 	{
 		margin-left: 1vw;
-		position: absolute;
 		top: 0.6vw;
 		height: 80%;
 		width: 6vw;
@@ -1281,7 +1217,6 @@ aside
 
 	.latest-release-song-name
 	{
-		position: absolute;
 		left: 9vw;
 		top: 20%;
 		font-size: 1.7vw;
@@ -1289,7 +1224,6 @@ aside
 
 	.latest-release-song-date
 	{
-		position: absolute;
 		left: 9vw;
 		top: 60%;
 		font-size: 1.4vw;
@@ -1297,7 +1231,6 @@ aside
 
 	.latest-release-song-option-logo
 	{
-		position: absolute;
 		top: 10%;
 		right: 2vw;
 		font-size: 1.5vw;
@@ -1334,7 +1267,6 @@ aside
 
 	.latest-release-song-option-dropdown i
 	{
-		position: absolute;
 		margin-right: 4vw;
 	}
 
@@ -1356,12 +1288,12 @@ aside
 
 	.latest-release-song-duration
 	{
-		position: absolute;
 		right: 1.7vw;
 		top: 40%;
 		font-size: 1.3vw;
 	}
 
+	/* Popular Artist */
 	#popular-artist-section
 	{
 		margin-bottom: 5vw;
@@ -1383,6 +1315,7 @@ aside
 		font-size: 1.8vw;
 	}
 
+	/* Station Section */
 	#station-section
 	{
 		height: 12vw;
@@ -1391,19 +1324,18 @@ aside
 
 	#station-logo
 	{
-		position: absolute;
 		left: 2%;
 		top: 11%;
 		height: 76%;
 		width: 17%;
 	}
 
-
 	.station-contents-text
 	{
 		font-size: 2vw;
 	}
 
+	/* Mood Section */
 	#mood-section
 	{
 		height: 15vw;
@@ -1415,6 +1347,7 @@ aside
 		font-size: 3vw;
 	}
 
+	/* Latest English Hindi */
 	#latest-english-hindi
 	{
 		margin-top: 7vw;
@@ -1440,6 +1373,7 @@ aside
 		font-size: 1.2vw;
 	}
 
+	/* Aside Section */
 	#aside-section
 	{
 		display: none;
@@ -1455,7 +1389,6 @@ aside
 		height: 5vw;
 		margin-top: 0.7vw;
 	}
-
 
 	#aside-hover-arrow i
 	{
@@ -1482,13 +1415,6 @@ aside
 		top: 1.8vw;
 	}
 
-	#serial-number-play
-	{
-		color: lightblue;
-		top: 2vw;
-		font-size: 1.5vw;
-	}
-
 	#light-box-close
 	{
 		display: block;
@@ -1510,7 +1436,7 @@ aside
 		z-index: 10;
 	}
 
-
+	/* Music Player Bottom */
 	#player-box
 	{
 		height: 7vw;
@@ -1569,13 +1495,10 @@ aside
 
 	#player-play,#player-pause
 	{
-		position: absolute;
 		left: 48.2%;
 		right: 48.2%;
 		font-size: 2.2vw;
 		top: 0.5vh;
-		border: 1px solid white;
-		background-color: rgba(20, 25, 58, 1.0);
 		padding: 0.6vw 0.0vw 0.4vw 0.65vw;
 		border-radius: 100%;
 	}
@@ -1612,7 +1535,6 @@ aside
 
 	#player-seek-next
 	{
-		position: absolute;
 		right: 44vw;
 		font-size: 1.8vw;
 		top: 1.2vw;
@@ -1620,7 +1542,6 @@ aside
 
 	#player-next
 	{
-		position: absolute;
 		right: 40vw;
 		font-size: 1.8vw;
 		top: 1.2vw;
@@ -1628,7 +1549,6 @@ aside
 
 	#player-repeat
 	{
-		position: absolute;
 		right: 33vw;
 		font-size: 1.6vw;
 		top: 1.2vw;
@@ -1636,65 +1556,34 @@ aside
 
 	#left-duration
 	{
-		position: absolute;
 		left: 28vw;
 		font-size: 1.5vw;
-		top: 4vw;
-	}
-
-	#player-first-strap
-	{
-		position: absolute;
-		left: 32vw;
-		font-size: 1vw;
-		top: 4.8vw;
-		border: 1.5px solid gray;
-		background-color: gray;
-		width: 35.7%;
-	}
-
-	#player-first-strap-covered
-	{
-		position: absolute;
-		left: 32vw;
-		font-size: 1vw;
-		top: 4.8vw;
-		border: 1.5px solid green;
-		background-color: green;
-		width: 9.5%;
-	}
-
-	#player-first-strap-cursor
-	{
-		position: absolute;
-		left: 41.5vw;
-		font-size: 1vw;
 		top: 4.5vw;
-		border: 5px solid white;
-		border-radius: 50%;
-		
 	}
+
+	#player-time-strap input
+	{
+		top: 5vw;
+	}
+
 	#right-duration
 	{
-		position: absolute;
 		right: 28vw;
 		font-size: 1.5vw;
-		top: 4vw;
+		top: 4.5vw;
 	}
 
 
 	#player-playlist-bars
 	{
-		position: absolute;
-		right: 16vw;
+		right: 23vw;
 		font-size: 1.8vw;
 		top: 2.5vw;
 	}
 
 	#player-playlist-play
 	{
-		position: absolute;
-		right: 16.7vw;
+		right: 23.7vw;
 		font-size: 1vw;
 		top: 2.0vw;
 		border: 1px dotted transparent;
@@ -1703,8 +1592,7 @@ aside
 
 	#airplay
 	{
-		position: absolute;
-		right: 12vw;
+		right: 18vw;
 		font-size: 1.8vw;
 		top: 2.5vw;
 	}
@@ -1712,34 +1600,19 @@ aside
 
 	#volume-logo
 	{
-		position: absolute;
-		right: 8vw;
-		font-size: 1.8vw;
+		right: 14vw;
 		top: 2.5vw;
 	}
 
-	#volume-strap
+	#volume-strap input
 	{
-		display: none;
-		position: absolute;
-		right: 7.8vw;
-		font-size: 1vw;
-		bottom: 4.5vw;
-		background-color: white;
-		border: 2px solid orange;
-		border-radius: 5px;
-		height: 13vw;
-		width: 2vw;
-	}
-
-	#volume:hover #volume-strap
-	{
-		display: block;
+		right: 7vw;
+		width: 6vw;
+		top: 2.8vw;
 	}
 
 	#player-second-strap-covered
 	{
-		position: absolute;
 		font-size: 1vw;
 		bottom: 0;
 		height: 10vw;
@@ -1755,7 +1628,6 @@ aside
 	}
 	#zoom-player
 	{
-		position: absolute;
 		right: 4.5vw;
 		font-size: 2vw;
 		top: 2.3vw;
@@ -1767,17 +1639,10 @@ aside
 	}
 }
 
-
-
-
-
-
-
-
-
-
+/* For Screen Size Less Than 650px Below Properties Will Apply */
 @media screen and (max-width: 650px)
 {
+	/* Top Row */
 	#top-row
 	{
 		height: 9vw;
@@ -1812,20 +1677,18 @@ aside
 		display: none;
 	}
 	
-	
 	#favourites-replace
 	{
 		display: block;
 		top: 3vw;
 	}
-	
+
 	#search-box
 	{
 		top: 2vw;
 		width: 53vw;
 		height: 4vw;
 	}
-	
 	
 	#search-icon
 	{
@@ -1876,6 +1739,7 @@ aside
 		width: 6vw;
 	}
 	
+	/* Main Content */
 	main
 	{
 		height: auto;
@@ -1894,6 +1758,7 @@ aside
 		width: 90vw;
 	}
 
+	/* HighLight Section */
 	#highlight-section
 	{
 		height: 32vw;
@@ -1906,6 +1771,7 @@ aside
 		height: 30vw;
 	}
 	
+	/* Latest Release */
 	#latest-release-section
 	{
 		width: 100%;
@@ -1919,9 +1785,6 @@ aside
 
 	#latest-release-content-div
 	{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-evenly;
 		align-items: center;
 		height: 80%;
 		width: 90vw;
@@ -1929,7 +1792,6 @@ aside
 	
 	.latest-release-content
 	{
-		position: relative;
 		height: 30%;
 		width: 47%;
 		top: 10%;
@@ -1981,6 +1843,7 @@ aside
 		font-size: 1.5vw;
 	}
 
+		/* Popular Artist */
 	#popular-artist-section
 	{
 		margin-bottom: 8vw;
@@ -1991,6 +1854,7 @@ aside
 		font-size: 2vw;
 	}
 	
+	/* Station Section */
 	#station-section
 	{
 		margin-bottom: 5vw;
@@ -2001,6 +1865,7 @@ aside
 		font-size: 2.5vw;
 	}
 
+	/* Mood Section */
 	#mood-section
 	{
 		margin-bottom: -5vw;
@@ -2008,10 +1873,10 @@ aside
 	
 	.mood-text
 	{
-		position: absolute;
 		font-size: 4vw;
 	}
 	
+	/* Latest English Hindi */
 	#latest-english-hindi
 	{
 		margin-top: 10vw;
@@ -2028,15 +1893,14 @@ aside
 		font-size: 1.5vw;
 	}
 
+	/* Aside Section */
 	#aside-section
 	{
-		display: none;
 		height: 83vh;
 		width: 30vw;
 		top: 8vw;
 		border-radius: 2vw;
 		border-bottom-left-radius: 0vw;
-		/* border: 1px solid white; */
 	}
 	
 	#aside-hover-arrow i
@@ -2135,6 +1999,7 @@ aside
 		top: 1.3vw;
 	}
 	
+	/* Music Player Bottom */
 	#player-box
 	{
 		height: 9vw;
@@ -2211,41 +2076,23 @@ aside
 	{
 		left: 27vw;
 		font-size: 2.2vw;
-		top: 5.5vw;
+		top: 6vw;
 	}
 
-	#player-first-strap
-	{
-		left: 32vw;
-		top: 6.5vw;
-		border: 2px solid gray;
-		background-color: gray;
-		width: 35.7%;
-	}
-
-	#player-first-strap-covered
+	#player-time-strap input
 	{
 		position: absolute;
-		left: 32vw;
-		font-size: 1vw;
 		top: 6.5vw;
-		border: 2px solid green;
-		background-color: green;
-		width: 9.5%;
+		left: 32vw;
+		width: 35.5vw;
+		height: 0.5vw;
 	}
 
-	#player-first-strap-cursor
-	{
-		left: 41.5vw;
-		font-size: 1vw;
-		top: 6vw;
-		
-	}
 	#right-duration
 	{
 		right: 27vw;
 		font-size: 2.2vw;
-		top: 5.5vw;
+		top: 6vw;
 	}
 
 	
@@ -2262,40 +2109,41 @@ aside
 
 	#airplay
 	{
-		display: none;
+		position: absolute;
+		right: 18vw;
+		font-size: 2.5vw;
+		top: 3vw;
 	}
 
 
 	#volume-logo
 	{
 		position: absolute;
-		right: 13vw;
+		right: 11vw;
 		font-size: 2.5vw;
 		top: 3vw;
 	}
 
+
 	#volume-strap
 	{
-		right: 12.5vw;
-		bottom: 6.2vw;
-		height: 20vw;
-		width: 3vw;
+		display: none;
+	}
+	
+	#volume-strap input
+	{
+		transform: rotate(-90deg);
+		right: 4vw;
+		width: 16vw;
+		height: 3vw;
+		top: -7vw;
 	}
 
 	#volume:hover #volume-strap
 	{
 		display: block;
 	}
-
-	#player-second-strap-covered
-	{
-		height: 15vw;
-	}
-
-	#volume-logo:hover+#volume-strap
-	{
-		display: block;
-	}
+	
 	#zoom-player
 	{
 		right: 6vw;
