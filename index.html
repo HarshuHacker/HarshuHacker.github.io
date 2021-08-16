@@ -1,85 +1,66 @@
-body
-{
-    background: linear-gradient(to right,#BBD2C5,#536976,#292E49);
-    margin: 0px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="0 Home Page Assets/style.css">
+</head>
+<body>
+    <div id="main-heading">
+        My Projects
+    </div>
+    <div id="main-contents">
 
-#main-heading
-{
-    display: flex;
-    height: 10vh;
-    width: 100%;
-    text-align: center;
-    font-size: 5vw;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
+        <a href="1 RESUME PAGE/index.html" target="_blank">
 
-#main-contents
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 90vh;
-}
+            <div id="resume-page" class="main-div-contents">
 
-.main-div-contents
-{
-    position: relative;
-    height: 30vw;
-    width: 30vw;
-    min-width: 40vh;
-    min-height: 40vh;
-    overflow: hidden;
-    transition: all 0.5s;
-    margin: 1.5vh;
-    margin-bottom: 8vh;
-    border-radius: 5vw;
-}
-
-.main-div-contents img
-{
-    height: 100%;
-    width: 100%;
+                <div class="img-contents">
+                    <img src="0 Home Page Assets/Resume Preview.png" alt="Resume Preview">
+                </div>
     
-}
+                <div class="main-contents-text">
+                    Resume
+                </div>
 
-.img-contents
-{
-    transition: 0.5s all;
-}
+            </div>
+            
+        </a>
 
-.main-div-contents:hover .img-contents
-{
-    transform: scale(1.25);
-}
+        <a href="2 MUSIC PLAYER/index.html" target="_blank">
 
-.main-contents-text
-{
-    display: flex;
-    font-size: 0vh;
-    position: absolute;
-    top: 0%;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s all;
-}
+            <div id="music player" class="main-div-contents">
 
-.main-div-contents:hover .img-contents
-{
-    opacity: 0.3;
-}
+                <div class="img-contents">
+                    <img src="0 Home Page Assets/Music Player Preview.png" alt="Music Player Preview">
+                </div>
+    
+                <div class="main-contents-text">
+                    Music Player
+                </div>
 
-.main-div-contents:hover .main-contents-text
-{
-    color: white;
-    font-size: 5vw;
-}
-.main-div-contents:hover
-{
-    box-shadow: 0 0 40px #74ADC8;
-}
+            </div>
+
+        </a>
+
+        <a href="3 CALCULATOR/calculator.html" target="_blank">
+
+            <div id="CALCULATOR" class="main-div-contents">
+
+                <div class="img-contents">
+                    <img src="0 Home Page Assets/Calculator Preview.png" alt="Music Player Preview">
+                </div>
+    
+                <div class="main-contents-text">
+                    Calculator
+                </div>
+
+            </div>
+
+        </a>
+        
+    </div>
+</body>
+</html>
