@@ -1,0 +1,122 @@
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+#calculator-main
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: black 1px solid;
+  border-radius: 20px;
+  box-shadow: 0px 0px 4px 4px gray;
+  padding: 4vw 0px;
+  background-color: black;
+}
+
+.calculator-class
+{
+  width: 90vw;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 7vw;
+  padding-top: 3vw;
+  min-width: 280px;
+}
+
+.calculator-class div
+{
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px;
+  height: 10vw;
+  width: 10vw;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0px 1vw;
+}
+
+#number-0
+{
+  border-radius: 50px;
+  width: 28vw;
+  justify-content: flex-start;
+  padding-left: 3vh;
+}
+
+#dot i
+{
+  font-size: 1vw;
+}
+
+#display
+{
+  height: 20vw;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 82%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 2vw;
+  font-size: 15vw;
+  color: white;
+  background-color:rgb(51, 51, 51);
+  overflow: scroll;
+}
+
+.top-side
+{
+  background-color: rgb(165, 165, 165);
+}
+
+.top-side:hover
+{
+  background-color: rgb(217, 217, 217);
+}
+
+.right-side
+{
+  background-color: rgb(241, 164, 60);
+  color: white;
+}
+
+
+.right-side:hover
+{
+  color: rgb(241, 164, 60);
+  background-color: white;
+}
+
+
+.remaining
+{
+  color: white;
+  background-color:rgb(51, 51, 51);
+}
+
+
+.remaining:hover
+{
+  background-color:rgb(115, 115, 115);
+}
+
+i
+{
+  font-size: 5vw;
+}
+
+#sign-ac,#operator-per
+{
+  font-size: 5vw;
+}
