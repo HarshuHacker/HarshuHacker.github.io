@@ -28,13 +28,14 @@ body
 .main-div-contents
 {
     position: relative;
-    height: 35vw;
-    width: 35vw;
-    min-width: 38vh;
-    min-height: 38vh;
+    height: 30vw;
+    width: 30vw;
+    min-width: 40vh;
+    min-height: 40vh;
     overflow: hidden;
     transition: all 0.5s;
     margin: 1.5vh;
+    margin-bottom: 8vh;
     border-radius: 5vw;
 }
 
