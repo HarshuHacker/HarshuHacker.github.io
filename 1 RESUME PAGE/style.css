@@ -1,8 +1,3 @@
-html
-{
-    scroll-behavior: smooth;
-}
-
 body
 {
     margin: 0px;
@@ -294,7 +289,7 @@ section:nth-child(2n + 1)
     transition: 1s ease-in-out;
 }
 
-.skill-name span : hover
+.skill-name span:hover
 {
     font-size: 5rem;
 }
