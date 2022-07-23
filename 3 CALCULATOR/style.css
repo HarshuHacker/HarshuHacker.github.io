@@ -1,0 +1,135 @@
+body
+{
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+
+main
+{
+  color: white;
+  height: 650px;
+  width: 90vw;
+  max-width: 800px;
+  min-width: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(28, 26, 31);
+  border-radius: 15px;
+}
+
+#screen
+{
+  position: relative;
+  height: 35%;
+  border-radius: 50px;
+  background-color: rgb(48, 50, 61);
+}
+
+.toggle-mode i
+{
+  font-size: 3rem;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  cursor: pointer;
+}
+
+/* #light-mode
+{
+  display: none;
+} */
+
+#dark-mode
+{
+  display: none;
+}
+
+#history
+{
+  font-size: 5vw;
+  position: absolute;
+  right: 3vw;
+  bottom: 140px;
+  opacity: 0.6;
+}
+
+#history i 
+{
+  font-size: 4vw;
+}
+
+#result
+{
+  font-size: 10vw;
+  position: absolute;
+  right: 3vw;
+  bottom: 30px;
+}
+
+#button-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 65%;
+}
+
+.buttons
+{
+  cursor: pointer;
+  width: 14%;
+  height: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: rgb(35, 35, 38);
+  border-radius: 40px;
+  font-size: 2.2rem;
+}
+
+.functional
+{
+  background-color: rgb(91, 133, 222);
+}
+
+#button-AC
+{
+  background-color: rgb(222, 91, 91);
+}
+
+#button-zero
+{
+  width: 34%;
+}
+
+#button-dot
+{
+  font-size: 0.6rem;
+}
+
+#button-equal
+{
+  background-color: rgb(91 222 153);
+}
+
+@media screen and (max-width: 415px) {
+  #result 
+  {
+     font-size: 33px;
+  }
+}
+
+@media screen and (min-width: 889px) {
+  #result 
+  {
+     font-size: 71px;
+  }
+}
