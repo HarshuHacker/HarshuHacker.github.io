@@ -49,6 +49,7 @@ body
 .img-contents
 {
     transition: 0.5s all;
+    height: 100%;
 }
 
 .main-div-contents:hover .img-contents
